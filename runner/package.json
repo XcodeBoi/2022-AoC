@@ -1,0 +1,10 @@
+{
+  "name": "runner",
+  "version": "0.1.0",
+  "description": "Runs AoC script for the day",
+  "scripts": {
+    "daily": ": ${DATE:=$(date +%d)}; node ../$DATE/index.js \"$(cat $DATE.txt)\""
+  },
+  "author": "XcodeBoy",
+  "license": "ISC"
+}
